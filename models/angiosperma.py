@@ -1,4 +1,4 @@
-from planta import Planta
+from models.planta import Planta
 
 class Angiosperma(Planta):
     def __init__(self, nome_cientifico, nome_popular, familia, habitat, ciclo_vida,tipo_flor):

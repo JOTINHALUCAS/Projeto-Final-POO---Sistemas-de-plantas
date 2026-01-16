@@ -1,4 +1,4 @@
-from angiosperma import Angiosperma
+from models.angiosperma import Angiosperma
 
 class Arvore(Angiosperma):
     def __init__(self, nome_cientifico, nome_popular, familia, habitat, ciclo_vida, tipo_flor, porte, produz_fruto:bool):
@@ -7,4 +7,4 @@ class Arvore(Angiosperma):
         self._produz_fruto = produz_fruto
 
     def classificar(self):
-        return "Arvore"
+        return f"Essa Planta é uma angiosperma da categoria árvore, cujo nome popular é {self._nome_popular} e o nome científico é {self._nome_cientifico}."

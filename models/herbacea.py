@@ -1,4 +1,4 @@
-from angiosperma import Angiosperma
+from models.angiosperma import Angiosperma
 
 class Herbacea(Angiosperma):
     def __init__(self, nome_cientifico, nome_popular, familia, habitat, ciclo_vida, tipo_flor, uso_medicinal: bool):
