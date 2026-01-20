@@ -1,176 +1,31 @@
 [
     {
         "tipo": "Arvore",
-        "nome_cientifico": "Mangifera indica",
-        "nome_popular": "Mangueira",
-        "familia": "Anacardiaceae",
-        "habitat": "Zona urbana",
-        "ciclo_vida": "Perene",
-        "porte": "Grande",
-        "produz_fruto": true
-    },
-    {
-        "tipo": "Arbusto",
-        "nome_cientifico": "Pilosocereus gounellei",
-        "nome_popular": "Xique-xique",
-        "familia": "Cactaceae",
-        "habitat": "Caatinga",
-        "ciclo_vida": "Perene",
-        "ramificacao": "Colunar com ramificações laterais"
-    },
-    {
-        "tipo": "Pteridofita",
-        "nome_cientifico": "Pterium aquilinum",
-        "nome_popular": "Samambaia-comum",
-        "familia": "Dennstaedtiaceae",
-        "habitat": "Ambientes úmidos",
-        "ciclo_vida": "Alternância de gerações"
-    },
-    {
-        "tipo": "Briofita",
-        "nome_cientifico": "Funaria hygrometrica",
-        "nome_popular": "Musgo-comum",
-        "familia": "Bryophyta",
-        "habitat": "Locais úmidos, sombreados",
-        "ciclo_vida": "Alternacia de gerações"
-    },
-    {
-        "tipo": "Arvore",
-        "nome_cientifico": "Amburana cearensis",
-        "nome_popular": "Cumaru",
+        "nome_cientifico": "Caesalpinia ferrea",
+        "nome_popular": "Pau-de-rato",
         "familia": "Fabaceae",
-        "habitat": "Caatinga e áreas semiáridas do nordeste brasileiro",
-        "ciclo_vida": "Perene",
-        "porte": "Médio/Grande",
-        "produz_fruto": true
-    },
-    {
-        "tipo": "Herbacea",
-        "nome_cientifico": "Musa sp",
-        "nome_popular": "Bananeira",
-        "familia": "Musaceae",
-        "habitat": "Regiões tropicais úmidas",
-        "ciclo_vida": "Perene (cada pseudocaule frutifica uma vez e depois morre)",
-        "uso_medicinal": false,
-        "produz_fruto": true
-    },
-    {
-        "tipo": "Arvore",
-        "nome_cientifico": "Amburana cearensis",
-        "nome_popular": "Cumaru",
-        "familia": "Fabaceae",
-        "habitat": "Caatinga",
+        "habitat": "Caatinga e mata seca",
         "ciclo_vida": "Perene",
         "porte": "médio",
         "produz_fruto": true
     },
     {
         "tipo": "Herbacea",
-        "nome_cientifico": "Musa sp",
-        "nome_popular": "Bananeira",
-        "familia": "Fabaceae",
-        "habitat": "Regiões tropicais úmidas",
-        "ciclo_vida": "Perene",
-        "uso_medicinal": false,
-        "produz_fruto": true
-    },
-    {
-        "tipo": "Arbusto",
-        "nome_cientifico": "Schinus terebinthifolius",
-        "nome_popular": "Aroreira",
-        "familia": "Anacardiaceae",
-        "habitat": "Caatinga",
-        "ciclo_vida": "Perene",
-        "ramificacao": "Densa"
-    },
-    {
-        "tipo": "Gimnosperma",
-        "nome_cientifico": "Araucaria angustifolia",
-        "nome_popular": "Pinheiro-do-paraná",
-        "familia": "Araucariaceae",
-        "habitat": "Mata de araucária",
-        "ciclo_vida": "Perene",
-        "tipo_semente": "Semente nua (pinha)"
-    },
-    {
-        "tipo": "Briofita",
-        "nome_cientifico": "Bryum argenteum",
-        "nome_popular": "Musgo",
-        "familia": "Bryaceae",
-        "habitat": "Locais umidos",
-        "ciclo_vida": "Perene"
-    },
-    {
-        "tipo": "Pteridofita",
-        "nome_cientifico": "Nephrolepis exaltata",
-        "nome_popular": "Samambaia",
-        "familia": "Nephrolepidaceae",
-        "habitat": "Locais úmidos e sombreados",
-        "ciclo_vida": "Perene",
-        "possui_esporos": true
-    },
-    {
-        "tipo": "Pteridofita",
-        "nome_cientifico": "Samambae",
-        "nome_popular": "Samambaia camara",
-        "familia": "Sambinha",
-        "habitat": "Locais umidos",
-        "ciclo_vida": "Perene",
-        "possui_esporos": true
-    },
-    {
-        "tipo": "Arvore",
-        "nome_cientifico": "Caesalpinia pyramidalis",
-        "nome_popular": "Catingueira",
-        "familia": "Fabaceae",
-        "habitat": "Caatinga seca",
-        "ciclo_vida": "Perene",
-        "porte": "Árvore de pequeno a médio porte",
-        "produz_fruto": true
-    },
-    {
-        "tipo": "Herbacea",
-        "nome_cientifico": "Croton sonderianus",
-        "nome_popular": "Velame",
-        "familia": "Euphorbiaceae",
-        "habitat": "Caatinga, solos pedregosos",
+        "nome_cientifico": "Cordia verbenacea",
+        "nome_popular": "Erva-baleeira",
+        "familia": "Boraginaceae",
+        "habitat": "Borda de mata mais úmida",
         "ciclo_vida": "Perene",
         "uso_medicinal": true,
         "produz_fruto": true
     },
     {
         "tipo": "Arbusto",
-        "nome_cientifico": "Bauhinia cheilantha",
-        "nome_popular": "Mororó",
-        "familia": "Fabaceae",
-        "habitat": "Caatinga, áreas abertas",
+        "nome_cientifico": "Combretum leprosum",
+        "nome_popular": "Mofumbo",
+        "familia": "Combretaceae",
+        "habitat": "Caatinga",
         "ciclo_vida": "Perene",
-        "ramificacao": "Ramificação aberta com muitos ramos finos"
-    },
-    {
-        "tipo": "Gimnosperma",
-        "nome_cientifico": "Thuja occidentalis",
-        "nome_popular": "Tuia-anã",
-        "familia": "Cupressaceae",
-        "habitat": "Jardins e praças, clima temperado ou subtropical",
-        "ciclo_vida": "Perene",
-        "tipo_semente": "Semente nua em pequenos cones"
-    },
-    {
-        "tipo": "Briofita",
-        "nome_cientifico": "Tortula ruralis",
-        "nome_popular": "Musgo-estrela",
-        "familia": "Pottiaceae",
-        "habitat": "Rochas e solos expostos, locais secos que ficam úmidos na chuva",
-        "ciclo_vida": "Perene"
-    },
-    {
-        "tipo": "Pteridofita",
-        "nome_cientifico": "Thelypteris dentata",
-        "nome_popular": "Samambaia-do-mato",
-        "familia": "Thelypteridaceae",
-        "habitat": "Locais úmidos e sombreados em borda de mata e beira de riachos",
-        "ciclo_vida": "Perene",
-        "possui_esporos": true
+        "ramificacao": "Ramificação tortuosa com muitos ramos finos"
     }
 ]
