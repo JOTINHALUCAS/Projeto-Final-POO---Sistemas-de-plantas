@@ -1,8 +1,8 @@
 from data.plantas_ceara import plantas
-#1from models.angiosperma import Angiosperma
+from models.angiosperma import Angiosperma
 from models.arbusto import Arbusto
 from models.arvore import Arvore
-#from models.gimnosperma import Gimnosperma
+from models.gimnosperma import Gimnosperma
 from models.herbacea import Herbacea
 import json
 
@@ -96,7 +96,8 @@ def listar_planta():
     print('---'*50)
     for j , planta in enumerate(plantas, start=1):
         print(f'[{j}] - {planta.descrever()}')
-    print('---'*50)
+        print('---'*60)
+    
 
 def procurar_planta():
     print('---'*50)
