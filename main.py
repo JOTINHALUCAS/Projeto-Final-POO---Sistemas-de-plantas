@@ -117,7 +117,7 @@ def carregar_plantas_usuario():
                     p["familia"],
                     p["habitat"],
                     p["ciclo_vida"],
-                    p.get("possui_esporros", True)
+                    p.get("possui_esporos", True)
                 )
             )
 
@@ -144,11 +144,11 @@ def listar_planta():
 
 def procurar_planta():
     print('---'*50)
-    nome_proc = input('Qual planta você deseja encontrar: ').capitalize().strip()
+    nome_proc = input('Qual planta você deseja encontrar (nome popular): ').capitalize().strip()
     encontrada = False
 
     for planta in plantas:
-        if nome_proc in planta._nome_popular:
+        if nome_proc in planta._nome_popular and nome_proc == planta._nome_popular:
             print('\nPlanta encontrada!! ')
             print(planta.classificar())
             encontrada = True
@@ -220,14 +220,14 @@ while True:
             )
 
         elif tipo == "Pteridofita" or tipo == '5':
-            possui_esporros = input('Possui esporos?(s/n) ').lower() =='s'
+            possui_esporos = input('Possui esporos?(s/n) ').lower() =='s'
             nova_planta = Pteridofita(
                 nome_cientifico=nome_cientifico,
                 nome_popular=nome_popular,
                 familia=familia,
                 habitat=habitat,
                 ciclo_vida=ciclo_vida,
-                possui_esporos= possui_esporros
+                possui_esporos= possui_esporos
             )
 
         elif tipo == 'Gimnosperma' or tipo == '6':

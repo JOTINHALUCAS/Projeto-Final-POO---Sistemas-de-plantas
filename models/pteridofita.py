@@ -1,9 +1,9 @@
 from models.planta import Planta
 
 class Pteridofita(Planta):
-    def __init__(self, nome_cientifico, nome_popular, familia, habitat, ciclo_vida, possui_esporros=True):
+    def __init__(self, nome_cientifico, nome_popular, familia, habitat, ciclo_vida, possui_esporos=True):
         super().__init__(nome_cientifico, nome_popular, familia, habitat, ciclo_vida)
-        self._possui_esporos = possui_esporros
+        self._possui_esporos = possui_esporos
 
     def classificar(self):
         return (
