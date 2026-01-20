@@ -80,3 +80,7 @@ caso não tenha a planta cadastrada no Banco de Dados local,irá aparecer uma me
 5. Execute o comando:
    ```bash
    python main.py
+
+**Autor:** João Lucas Pinto Taveira  
+**Disciplina:** Programação Orientada a Objetos  
+**Instituição:** Universidade Federal do Ceará (UFC) 
