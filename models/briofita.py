@@ -6,7 +6,7 @@ class Briofita(Planta):
         self._possui_vaso = possui_vasso
 
     def classificar(self):
-        return super().classificar()
+        return super().classificar() + '\nTipo: Briofita'
 
     def descrever(self):
         return (

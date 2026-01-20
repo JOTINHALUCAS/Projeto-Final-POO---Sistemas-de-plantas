@@ -117,5 +117,60 @@
         "habitat": "Locais umidos",
         "ciclo_vida": "Perene",
         "possui_esporos": true
+    },
+    {
+        "tipo": "Arvore",
+        "nome_cientifico": "Caesalpinia pyramidalis",
+        "nome_popular": "Catingueira",
+        "familia": "Fabaceae",
+        "habitat": "Caatinga seca",
+        "ciclo_vida": "Perene",
+        "porte": "Árvore de pequeno a médio porte",
+        "produz_fruto": true
+    },
+    {
+        "tipo": "Herbacea",
+        "nome_cientifico": "Croton sonderianus",
+        "nome_popular": "Velame",
+        "familia": "Euphorbiaceae",
+        "habitat": "Caatinga, solos pedregosos",
+        "ciclo_vida": "Perene",
+        "uso_medicinal": true,
+        "produz_fruto": true
+    },
+    {
+        "tipo": "Arbusto",
+        "nome_cientifico": "Bauhinia cheilantha",
+        "nome_popular": "Mororó",
+        "familia": "Fabaceae",
+        "habitat": "Caatinga, áreas abertas",
+        "ciclo_vida": "Perene",
+        "ramificacao": "Ramificação aberta com muitos ramos finos"
+    },
+    {
+        "tipo": "Gimnosperma",
+        "nome_cientifico": "Thuja occidentalis",
+        "nome_popular": "Tuia-anã",
+        "familia": "Cupressaceae",
+        "habitat": "Jardins e praças, clima temperado ou subtropical",
+        "ciclo_vida": "Perene",
+        "tipo_semente": "Semente nua em pequenos cones"
+    },
+    {
+        "tipo": "Briofita",
+        "nome_cientifico": "Tortula ruralis",
+        "nome_popular": "Musgo-estrela",
+        "familia": "Pottiaceae",
+        "habitat": "Rochas e solos expostos, locais secos que ficam úmidos na chuva",
+        "ciclo_vida": "Perene"
+    },
+    {
+        "tipo": "Pteridofita",
+        "nome_cientifico": "Thelypteris dentata",
+        "nome_popular": "Samambaia-do-mato",
+        "familia": "Thelypteridaceae",
+        "habitat": "Locais úmidos e sombreados em borda de mata e beira de riachos",
+        "ciclo_vida": "Perene",
+        "possui_esporos": true
     }
 ]

@@ -5,7 +5,7 @@ class Angiosperma(Planta):
         super().__init__(nome_cientifico,nome_popular,familia,habitat, ciclo_vida)
  
     def classificar(self):
-        return super().classificar() 
+        return super().classificar() + '\nTipo: Angiosperma'
 
     def descrever(self):
         return (

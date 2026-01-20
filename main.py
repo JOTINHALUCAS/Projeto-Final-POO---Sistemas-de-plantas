@@ -158,7 +158,6 @@ def procurar_planta():
     print('---'*50)
 
 
-
 while True:
     menu()
     op = input('Digite um número acima:')
@@ -175,7 +174,7 @@ while True:
 
         if tipo == 'Arvore' or tipo == '1':
             porte = input('Porte:')
-            produz_fruto = input('Fruto:').lower() == "s"
+            produz_fruto = input('Fruto (s/n):').lower() == "s"
             nova_planta = Arvore(
                 nome_popular=nome_popular,
                 nome_cientifico=nome_cientifico,

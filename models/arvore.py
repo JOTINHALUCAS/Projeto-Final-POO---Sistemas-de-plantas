@@ -7,7 +7,7 @@ class Arvore(Angiosperma):
         self._produz_fruto = produz_fruto
 
     def classificar(self):
-        return super().classificar()
+        return super().classificar() + "\nTipo: Arvore"
     
     def descrever(self):
         return (
