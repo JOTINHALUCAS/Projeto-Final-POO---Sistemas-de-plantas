@@ -1,0 +1,21 @@
+[
+    {
+        "tipo": "Arvore",
+        "nome_cientifico": "Mangifera indica",
+        "nome_popular": "Mangueira",
+        "familia": "Anacardiaceae",
+        "habitat": "Zona urbana",
+        "ciclo_vida": "Perene",
+        "porte": "Grande",
+        "produz_fruto": true
+    },
+    {
+        "tipo": "Arbusto",
+        "nome_cientifico": "Pilosocereus gounellei",
+        "nome_popular": "Xique-Xique",
+        "familia": "Cactaceae",
+        "habitat": "Caatinga",
+        "ciclo_vida": "Perene",
+        "ramificacao": "Colunar com ramificações laterais"
+    }
+]

@@ -6,5 +6,20 @@ class Gimnosperma(Planta):
         self._tipo_semente = tipo_semente
 
     def classificar(self):
-        return "Planta -> Gimnosperma"
+        return (
+            super().classificar() +
+            '\nGrupo: Gimnosperma\n'
+            f'Tipo de semente: {self._tipo_semente}'
+        )
+
+    def descrever(self):
+        return (
+            f"Essa é uma planta do grupo Gimnosperma, "
+            f"com nome popular {self._nome_popular}, "
+            f"da família {self._familia} "
+            f"e nome científico {self._nome_cientifico}."
+        )
+    
+    
+
     

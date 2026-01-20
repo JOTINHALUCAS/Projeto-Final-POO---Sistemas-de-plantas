@@ -95,7 +95,7 @@ def carregar_plantas_usuario():
 def listar_planta():
     print('---'*50)
     for j , planta in enumerate(plantas, start=1):
-        print(f'[{j}] - {planta.classificar()}')
+        print(f'[{j}] - {planta.descrever()}')
     print('---'*50)
 
 def procurar_planta():
@@ -105,7 +105,8 @@ def procurar_planta():
 
     for planta in plantas:
         if nome_proc in planta._nome_popular:
-            print(planta.descrever())
+            print('\nPlanta encontrada!! ')
+            print(planta.classificar())
             encontrada = True
 
     if not encontrada:
