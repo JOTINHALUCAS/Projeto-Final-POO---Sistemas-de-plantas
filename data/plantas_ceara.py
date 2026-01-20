@@ -1,7 +1,9 @@
 from models.arvore import Arvore
 from models.arbusto import Arbusto
 from models.herbacea import Herbacea
-
+from models.briofita import Briofita
+from models.pteridofita import Pteridofita
+from models.gimnosperma import Gimnosperma
 
 arvores = [
     Arvore("Hymenaea courbaril", "Jatobá", "Fabaceae", "Florestas tropicais", "Longo", "Grande", True),
@@ -42,4 +44,29 @@ herbaceas = [
     Herbacea("Peperomia pellucida", "Erva-de-jabuti", "Piperaceae", "Úmido", "Anual", True)
 ]
 
-plantas = arvores + arbustos + herbaceas
+briofitas = [
+    Briofita("Sphagnum palustre", "Musgo-do-brejo", "Sphagnaceae", "Ambiente úmido", "Perene"),
+    Briofita("Polytrichum commune", "Musgo-cabeludo", "Polytrichaceae", "Solo úmido", "Perene"),
+    Briofita("Marchantia polymorpha", "Hepática", "Marchantiaceae", "Ambiente sombreado", "Perene"),
+    Briofita("Bryum argenteum", "Musgo-prateado", "Bryaceae", "Ambiente urbano", "Perene"),
+    Briofita("Riccia fluitans", "Riccia", "Ricciaceae", "Ambiente aquático", "Perene"),
+]
+
+pteridofitas = [
+    Pteridofita("Nephrolepis exaltata", "Samambaia", "Nephrolepidaceae", "Ambiente úmido", "Perene"),
+    Pteridofita("Adiantum capillus-veneris", "Avenca", "Pteridaceae", "Ambiente sombreado", "Perene"),
+    Pteridofita("Pteridium aquilinum", "Samambaia-do-campo", "Dennstaedtiaceae", "Campos", "Perene"),
+    Pteridofita("Equisetum giganteum", "Cavalinha", "Equisetaceae", "Áreas alagadas", "Perene"),
+    Pteridofita("Selaginella kraussiana", "Selaginela", "Selaginellaceae", "Ambiente úmido", "Perene"),
+]
+
+gimnospermas = [
+    Gimnosperma("Araucaria angustifolia", "Araucária", "Araucariaceae", "Região serrana", "Perene", "Semente nua"),
+    Gimnosperma("Pinus elliottii", "Pinus", "Pinaceae", "Florestas plantadas", "Perene", "Semente nua"),
+    Gimnosperma("Cycas revoluta", "Cica", "Cycadaceae", "Jardins", "Perene", "Semente nua"),
+    Gimnosperma("Ginkgo biloba", "Ginkgo", "Ginkgoaceae", "Urbano", "Perene", "Semente nua"),
+    Gimnosperma("Cupressus sempervirens", "Cipreste", "Cupressaceae", "Cultivo", "Perene", "Semente nua"),
+]
+
+
+plantas = arvores + arbustos + herbaceas + briofitas + pteridofitas + gimnospermas
