@@ -32,16 +32,16 @@ arbustos = [
 ]
 
 herbaceas = [
-    Herbacea("Cereus jamacaru", "Mandacaru", "Cactaceae", "Caatinga", "Perene", False),
-    Herbacea("Opuntia ficus-indica", "Palma-forrageira", "Cactaceae", "Caatinga", "Perene", True),
-    Herbacea("Aloe vera", "Babosa", "Asphodelaceae", "Cultivo", "Perene", True),
-    Herbacea("Portulaca oleracea", "Beldroega", "Portulacaceae", "Caatinga", "Anual", True),
-    Herbacea("Chenopodium ambrosioides", "Mastruz", "Amaranthaceae", "Caatinga", "Perene", True),
-    Herbacea("Cymbopogon citratus", "Capim-santo", "Poaceae", "Cultivo", "Perene", True),
-    Herbacea("Ocimum basilicum", "Manjericão", "Lamiaceae", "Cultivo", "Anual", True),
-    Herbacea("Mentha spicata", "Hortelã", "Lamiaceae", "Cultivo", "Perene", True),
-    Herbacea("Bidens pilosa", "Picão-preto", "Asteraceae", "Caatinga", "Anual", True),
-    Herbacea("Peperomia pellucida", "Erva-de-jabuti", "Piperaceae", "Úmido", "Anual", True)
+    Herbacea("Cereus jamacaru", "Mandacaru", "Cactaceae", "Caatinga", "Perene", False, True),
+    Herbacea("Opuntia ficus-indica", "Palma-forrageira", "Cactaceae", "Caatinga", "Perene", True,True),
+    Herbacea("Aloe vera", "Babosa", "Asphodelaceae", "Cultivo", "Perene", True,False),
+    Herbacea("Portulaca oleracea", "Beldroega", "Portulacaceae", "Caatinga", "Anual", True,True),
+    Herbacea("Chenopodium ambrosioides", "Mastruz", "Amaranthaceae", "Caatinga", "Perene", True,True),
+    Herbacea("Cymbopogon citratus", "Capim-santo", "Poaceae", "Cultivo", "Perene", True,False),
+    Herbacea("Ocimum basilicum", "Manjericão", "Lamiaceae", "Cultivo", "Anual", True, False),
+    Herbacea("Mentha spicata", "Hortelã", "Lamiaceae", "Cultivo", "Perene", True, True),
+    Herbacea("Bidens pilosa", "Picão-preto", "Asteraceae", "Caatinga", "Anual", True, True),
+    Herbacea("Peperomia pellucida", "Erva-de-jabuti", "Piperaceae", "Úmido", "Anual", True, False)
 ]
 
 briofitas = [

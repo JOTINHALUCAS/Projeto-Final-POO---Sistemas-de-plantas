@@ -12,10 +12,46 @@
     {
         "tipo": "Arbusto",
         "nome_cientifico": "Pilosocereus gounellei",
-        "nome_popular": "Xique-Xique",
+        "nome_popular": "Xique-xique",
         "familia": "Cactaceae",
         "habitat": "Caatinga",
         "ciclo_vida": "Perene",
         "ramificacao": "Colunar com ramificações laterais"
+    },
+    {
+        "tipo": "Pteridofita",
+        "nome_cientifico": "Pterium aquilinum",
+        "nome_popular": "Samambaia-comum",
+        "familia": "Dennstaedtiaceae",
+        "habitat": "Ambientes úmidos",
+        "ciclo_vida": "Alternância de gerações"
+    },
+    {
+        "tipo": "Briofita",
+        "nome_cientifico": "Funaria hygrometrica",
+        "nome_popular": "Musgo-comum",
+        "familia": "Bryophyta",
+        "habitat": "Locais úmidos, sombreados",
+        "ciclo_vida": "Alternacia de gerações"
+    },
+    {
+        "tipo": "Arvore",
+        "nome_cientifico": "Amburana cearensis",
+        "nome_popular": "Cumaru",
+        "familia": "Fabaceae",
+        "habitat": "Caatinga e áreas semiáridas do nordeste brasileiro",
+        "ciclo_vida": "Perene",
+        "porte": "Médio/Grande",
+        "produz_fruto": true
+    },
+    {
+        "tipo": "Herbacea",
+        "nome_cientifico": "Musa sp",
+        "nome_popular": "Bananeira",
+        "familia": "Musaceae",
+        "habitat": "Regiões tropicais úmidas",
+        "ciclo_vida": "Perene (cada pseudocaule frutifica uma vez e depois morre)",
+        "uso_medicinal": false,
+        "produz_fruto": true
     }
 ]
